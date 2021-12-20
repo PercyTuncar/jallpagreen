@@ -1,25 +1,19 @@
 import React from 'react'
-import { graphql } from 'gatsby'
-
+import { Col, Row } from "react-bootstrap";
+import { graphql } from 'gatsby' 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import SliderOne from "../components/slider-one";
+import AboutTwo from "../components/about";
+import WhatsApp from '../components/WhatsApp';
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-    <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
-    <section className="section">
-      <div className="container">
-        <Content source={body} />
-      </div>
-    </section>
+     <SliderOne />
+     <AboutTwo />
+     <WhatsApp/>
   </main>
 )
 
