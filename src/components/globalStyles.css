@@ -299,7 +299,9 @@ a:active {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: inline-flex;
+  flex-direction: column;
+  right: 0;
 }
 
 .sec-pad {
@@ -331,7 +333,7 @@ a:active {
   outline: none;
   display: inline-block;
   vertical-align: middle;
-  background: #ff4328;
+  background: #9e2d00;
   border-radius: 35px;
   color: #fff;
   font-family: "Rubik";
@@ -1562,7 +1564,7 @@ body.active-preloader-ovh {
 .footer-bottom .thm-container .copy-text p {
   margin: 0;
   color: #a0a0a0;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 59px;
 }
 .footer-bottom .thm-container .copy-text p a {
@@ -1917,6 +1919,7 @@ body.active-preloader-ovh {
   background-size: cover;
   padding-top: 120px;
   padding-bottom: 120px;
+  text-align: center;
 }
 .cta-style-three span,
 .cta-style-three h2 {
@@ -1937,6 +1940,8 @@ body.active-preloader-ovh {
 .cta-style-three a.thm-btn {
   background: #212121;
   color: #fff;
+  width: fit-content;
+  margin: auto;
   margin-top: 50px;
 }
 .cta-style-three a.thm-btn:hover {
@@ -2374,7 +2379,7 @@ body.active-preloader-ovh {
   transform: translate(-50%, -50%);
   width: 2px;
   height: 100%;
-  background: #ebedf4;
+  background: #75f5ab;
 }
 .service-style-one .service-right-content .divider.ver {
   width: 100%;
@@ -2436,7 +2441,7 @@ body.active-preloader-ovh {
 }
 .service-tab-box .tab-title li.active a i,
 .service-tab-box .tab-title li.active a h3 {
-  color: #fff;
+  color: rgb(46 204 113) !important;
 }
 .service-tab-box .tab-title li a {
   text-align: center;
@@ -5075,3 +5080,8 @@ body.active-preloader-ovh {
 ._2rVjT{
   padding: 10px;
 }
+.pricing-section {
+text-align: center;
+}
+
+ 

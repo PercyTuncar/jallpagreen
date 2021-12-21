@@ -6,6 +6,7 @@ import Nav from './Nav'
 import Footer from './Footer'
 import GithubCorner from './GithubCorner'
 import 'bootstrap/dist/css/bootstrap.css';
+import '../components/hover.min.css'
 
 import './globalStyles.css'
 

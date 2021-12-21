@@ -1,0 +1,25 @@
+.service-tab-box .tab-title li a:before{
+    background: #ff4328;
+}
+.video-box-design-guide{ 
+    text-align: center;
+}
+.thm-container{
+    display: block;
+}
+
+.service-style-one .service-right-content{
+    background: #fff;
+    position: relative;
+}
+.single-service-one:hover{
+    background: rgb(9 28 22);
+}
+
+.service-tab-box .tab-title li a:before{
+    background: #ff4328;
+}
+
+.service-tab-box .tab-title li a:hover i, .service-tab-box .tab-title li a:hover h3, .service-tab-box .tab-title li a:focus i, .service-tab-box .tab-title li a:focus h3, .service-tab-box .tab-title li a:active i, .service-tab-box .tab-title li a:active h3{
+    color: #28ff4c;
+}
