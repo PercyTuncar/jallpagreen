@@ -278,10 +278,8 @@ blockquote {
 /**************************
 * 2. miscelnious styles
 ***************************/
-body {
-  font-family: "Rubik";
-  color: #757575;
-  font-size: 18px;
+body { 
+  color: #757575; 
   line-height: 32px;
 }
 
@@ -372,8 +370,7 @@ a:active {
   margin-bottom: 30px;
 }
 .sec-title p {
-  color: #757575;
-  font-size: 20px;
+  color: #757575; 
   line-height: 32px;
   margin: 0;
 }
@@ -2407,7 +2404,7 @@ body.active-preloader-ovh {
   transition: all 0.4s ease;
 }
 .service-style-one .service-right-content .single-service-one:before {
-  background: #ff4328;
+  background: rgb(42 140 38);
 }
 .service-style-one .service-right-content .single-service-one:hover i,
 .service-style-one .service-right-content .single-service-one:hover h3 {
@@ -2439,10 +2436,7 @@ body.active-preloader-ovh {
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
-.service-tab-box .tab-title li.active a i,
-.service-tab-box .tab-title li.active a h3 {
-  color: rgb(46 204 113) !important;
-}
+
 .service-tab-box .tab-title li a {
   text-align: center;
   padding: 50px 0;

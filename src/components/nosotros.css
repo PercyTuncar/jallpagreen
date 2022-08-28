@@ -1,5 +1,5 @@
 .service-tab-box .tab-title li a:before{
-    background: #ff4328;
+    background: #0ce26d;
 }
 .video-box-design-guide{ 
     text-align: center;
@@ -17,9 +17,8 @@
 }
 
 .service-tab-box .tab-title li a:before{
-    background: #ff4328;
+    background: #0ce26d;
 }
 
-.service-tab-box .tab-title li a:hover i, .service-tab-box .tab-title li a:hover h3, .service-tab-box .tab-title li a:focus i, .service-tab-box .tab-title li a:focus h3, .service-tab-box .tab-title li a:active i, .service-tab-box .tab-title li a:active h3{
-    color: #28ff4c;
-}
+
+

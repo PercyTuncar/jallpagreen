@@ -1,8 +1,11 @@
 import { Link } from "gatsby";
 import React from "react";
 
+const ListStyle = {
+    listStyleType: "none", 
+}
 const ServiceCardTwo = ({ data }) => {
-  const { image, title, count, price, text, url } = data;
+  const { image, title, count, price, text, url, l01, l02, l03, l04, l05  } = data;
   return (
     <div className="single-service-three">
       <div className="img-box">
@@ -12,13 +15,23 @@ const ServiceCardTwo = ({ data }) => {
         <Link to={url}>
           <h3>{title}</h3>
         </Link>
-        <div className="meta-info">
+        <div className="meta-info"> </div>
+      {
+          /*   <div className="meta-info">
           <p>
             {count} cards from <span>${price}</span>
           </p>
-        </div>
+        </div> */
+      }
         <p>{text}</p>
-        <Link to={url} className="read-more fas fa-angle-right"></Link>
+        <ul style={ListStyle}>
+            <li>{l01}</li>
+            <li>{l02}</li>
+            <li>{l03}</li>
+            <li>{l04}</li>
+            <li>{l05}</li>
+        </ul> 
+        <Link to={url} className="btnContacto">Cotizar</Link>
       </div>
     </div>
   );
